@@ -45,7 +45,7 @@ Feel free to contact the author or submit a PR if these get terribly out-of-date
 
 Thanks to @jenius and @corysimmons for their work on Axis & Rupture and Jeet, respectively.
 
-This project was forked from [Dave Gonzalez's fork](https://github.com/davegonzalez/stylus-jeet) of 
+This project was forked from [Dave Gonzalez's fork](https://github.com/davegonzalez/stylus-jeet) of [stylus-latest](https://github.com/sbking/meteor-stylus-latest/).
 
 ## Opinions
 
