@@ -2,7 +2,7 @@
   "name": "stylus-multi",
   "description": "Stylus, packaged with Nib, Jeet, Rupture, and Axis mixin packages",
   "author": "Hunter Trujillo",
-  "homepage": "https://github.com/furrio/stylus-multi",
+  "homepage": "https://github.com/furrio/meteor-stylus-multi",
   "version": "0.0.1",
-  "git": "https://github.com/furrio/stylus-multi.git"
+  "git": "https://github.com/furrio/meteor-stylus-multi.git"
 }
