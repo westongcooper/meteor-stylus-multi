@@ -3,7 +3,7 @@ var stylus = Npm.require('stylus');
 var Future = Npm.require('fibers/future');
 var nib = Npm.require('nib');
 var jeet = Npm.require('jeet');
-var jeet = Npm.require('rupture');
+var rupture = Npm.require('rupture');
 var axis = Npm.require('axis-css');
 var path = Npm.require('path');
 
