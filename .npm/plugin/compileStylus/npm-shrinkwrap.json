@@ -1,36 +1,77 @@
 {
   "dependencies": {
-    "stylus": {
-      "version": "0.42.3",
+    "axis-css": {
+      "version": "0.1.8",
       "dependencies": {
-        "css-parse": {
-          "version": "1.7.0"
-        },
-        "mkdirp": {
-          "version": "0.3.5"
-        },
-        "debug": {
-          "version": "0.7.4"
-        },
-        "sax": {
-          "version": "0.5.8"
-        },
-        "glob": {
-          "version": "3.2.9",
+        "autoprefixer-stylus": {
+          "version": "0.0.3",
           "dependencies": {
-            "minimatch": {
-              "version": "0.2.14",
+            "autoprefixer": {
+              "version": "0.8.20131213",
               "dependencies": {
-                "lru-cache": {
-                  "version": "2.5.0"
+                "css-parse": {
+                  "version": "1.6.0"
                 },
-                "sigmund": {
-                  "version": "1.0.0"
+                "css-stringify": {
+                  "version": "1.4.1",
+                  "dependencies": {
+                    "source-map": {
+                      "version": "0.1.33",
+                      "dependencies": {
+                        "amdefine": {
+                          "version": "0.1.0"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "jeet": {
+      "version": "5.2.10",
+      "dependencies": {
+        "stylus": {
+          "version": "0.42.3",
+          "dependencies": {
+            "css-parse": {
+              "version": "1.7.0"
+            },
+            "mkdirp": {
+              "version": "0.3.5"
+            },
+            "debug": {
+              "version": "1.0.2",
+              "dependencies": {
+                "ms": {
+                  "version": "0.6.2"
                 }
               }
             },
-            "inherits": {
-              "version": "2.0.1"
+            "sax": {
+              "version": "0.5.8"
+            },
+            "glob": {
+              "version": "3.2.11",
+              "dependencies": {
+                "inherits": {
+                  "version": "2.0.1"
+                },
+                "minimatch": {
+                  "version": "0.3.0",
+                  "dependencies": {
+                    "lru-cache": {
+                      "version": "2.5.0"
+                    },
+                    "sigmund": {
+                      "version": "1.0.0"
+                    }
+                  }
+                }
+              }
             }
           }
         }
@@ -58,33 +99,43 @@
         }
       }
     },
-    "jeet": {
-      "version": "5.1.3"
+    "rupture": {
+      "version": "0.1.0"
     },
-    "axis-css": {
-      "version": "0.1.8",
+    "stylus": {
+      "version": "0.46.3",
       "dependencies": {
-        "autoprefixer-stylus": {
-          "version": "0.0.3",
+        "css-parse": {
+          "version": "1.7.0"
+        },
+        "mkdirp": {
+          "version": "0.3.5"
+        },
+        "debug": {
+          "version": "1.0.2",
           "dependencies": {
-            "autoprefixer": {
-              "version": "0.8.20131213",
+            "ms": {
+              "version": "0.6.2"
+            }
+          }
+        },
+        "sax": {
+          "version": "0.5.8"
+        },
+        "glob": {
+          "version": "3.2.11",
+          "dependencies": {
+            "inherits": {
+              "version": "2.0.1"
+            },
+            "minimatch": {
+              "version": "0.3.0",
               "dependencies": {
-                "css-parse": {
-                  "version": "1.6.0"
+                "lru-cache": {
+                  "version": "2.5.0"
                 },
-                "css-stringify": {
-                  "version": "1.4.1",
-                  "dependencies": {
-                    "source-map": {
-                      "version": "0.1.33",
-                      "dependencies": {
-                        "amdefine": {
-                          "version": "0.1.0"
-                        }
-                      }
-                    }
-                  }
+                "sigmund": {
+                  "version": "1.0.0"
                 }
               }
             }
