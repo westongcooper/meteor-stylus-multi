@@ -1,7 +1,36 @@
 {
   "dependencies": {
     "axis": {
-      "version": "0.2.0"
+      "version": "0.2.0",
+      "dependencies": {
+        "nib": {
+          "version": "1.0.3",
+          "dependencies": {
+            "stylus": {
+              "version": "0.37.0",
+              "dependencies": {
+                "cssom": {
+                  "version": "0.2.5"
+                },
+                "mkdirp": {
+                  "version": "0.3.5"
+                },
+                "debug": {
+                  "version": "1.0.2",
+                  "dependencies": {
+                    "ms": {
+                      "version": "0.6.2"
+                    }
+                  }
+                },
+                "sax": {
+                  "version": "0.5.8"
+                }
+              }
+            }
+          }
+        }
+      }
     },
     "jeet": {
       "version": "5.2.10",
@@ -50,7 +79,7 @@
       }
     },
     "nib": {
-      "version": "1.0.2",
+      "version": "1.0.3",
       "dependencies": {
         "stylus": {
           "version": "0.37.0",
@@ -62,7 +91,12 @@
               "version": "0.3.5"
             },
             "debug": {
-              "version": "0.7.4"
+              "version": "1.0.2",
+              "dependencies": {
+                "ms": {
+                  "version": "0.6.2"
+                }
+              }
             },
             "sax": {
               "version": "0.5.8"
