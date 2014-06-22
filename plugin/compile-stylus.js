@@ -4,7 +4,7 @@ var Future = Npm.require('fibers/future');
 var nib = Npm.require('nib');
 var jeet = Npm.require('jeet');
 var rupture = Npm.require('rupture');
-var axis = Npm.require('axis-css');
+var axis = Npm.require('axis');
 var path = Npm.require('path');
 
 Plugin.registerSourceHandler("styl", function(compileStep) {
@@ -42,7 +42,7 @@ Plugin.registerSourceHandler("styl", function(compileStep) {
   });
 });
 
-// Register import.styl files with the dependency watcher, without actually  
+// Register import.styl files with the dependency watcher, without actually
 // processing them. There is a similar rule in the less package.
 Plugin.registerSourceHandler("import.styl", function () {
   // Do nothing

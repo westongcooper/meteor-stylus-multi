@@ -1,35 +1,7 @@
 {
   "dependencies": {
-    "axis-css": {
-      "version": "0.1.8",
-      "dependencies": {
-        "autoprefixer-stylus": {
-          "version": "0.0.3",
-          "dependencies": {
-            "autoprefixer": {
-              "version": "0.8.20131213",
-              "dependencies": {
-                "css-parse": {
-                  "version": "1.6.0"
-                },
-                "css-stringify": {
-                  "version": "1.4.1",
-                  "dependencies": {
-                    "source-map": {
-                      "version": "0.1.33",
-                      "dependencies": {
-                        "amdefine": {
-                          "version": "0.1.0"
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          }
-        }
-      }
+    "axis": {
+      "version": "0.2.0"
     },
     "jeet": {
       "version": "5.2.10",

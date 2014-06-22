@@ -13,7 +13,7 @@ Package._transitional_registerBuildPlugin({
     nib: "1.0.2",
     jeet: "5.2.10",
     rupture: "0.1.0",
-    "axis-css": "0.1.8"
+    axis: "0.2.0"
   }
 });
 
