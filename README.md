@@ -5,7 +5,7 @@ This package provides many nice, useful Stylus packages. This approach might be 
 
 ## Included packages
 
-### [Stylus](http://learnboost.github.io/stylus/) 0.42.3
+### [Stylus](http://learnboost.github.io/stylus/) 0.46.3
 
 Expressive, dynamic, robust CSS.
 
