@@ -11,6 +11,7 @@ Package._transitional_registerBuildPlugin({
   npmDependencies: {
     stylus: "0.46.3",
     nib: "1.0.3",
+    "autoprefixer-stylus": "0.1.0",
     jeet: "5.2.10",
     rupture: "0.1.0",
     axis: "0.2.0"

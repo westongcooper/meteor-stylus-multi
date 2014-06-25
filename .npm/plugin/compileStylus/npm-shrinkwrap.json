@@ -1,5 +1,53 @@
 {
   "dependencies": {
+    "autoprefixer-stylus": {
+      "version": "0.1.0",
+      "dependencies": {
+        "autoprefixer": {
+          "version": "1.1.20140605",
+          "dependencies": {
+            "postcss": {
+              "version": "0.3.5",
+              "dependencies": {
+                "source-map": {
+                  "version": "0.1.34",
+                  "dependencies": {
+                    "amdefine": {
+                      "version": "0.1.0"
+                    }
+                  }
+                },
+                "base64-js": {
+                  "version": "0.0.7"
+                }
+              }
+            },
+            "fs-extra": {
+              "version": "0.9.1",
+              "dependencies": {
+                "ncp": {
+                  "version": "0.5.1"
+                },
+                "mkdirp": {
+                  "version": "0.5.0",
+                  "dependencies": {
+                    "minimist": {
+                      "version": "0.0.8"
+                    }
+                  }
+                },
+                "jsonfile": {
+                  "version": "1.1.1"
+                },
+                "rimraf": {
+                  "version": "2.2.8"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "axis": {
       "version": "0.2.0",
       "dependencies": {

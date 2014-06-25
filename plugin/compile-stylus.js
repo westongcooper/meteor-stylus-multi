@@ -6,6 +6,7 @@ var jeet = Npm.require('jeet');
 var rupture = Npm.require('rupture');
 var axis = Npm.require('axis');
 var path = Npm.require('path');
+var autoprefixer = Npm.require('autoprefixer-stylus');
 
 Plugin.registerSourceHandler("styl", function(compileStep) {
   // XXX annoying that this is replicated in .css, .less, and .styl
@@ -21,8 +22,9 @@ Plugin.registerSourceHandler("styl", function(compileStep) {
   stylus(compileStep.read().toString('utf8'))
     .use(nib())
     .use(jeet())
-    .use(rupture())
     .use(axis())
+    .use(autoprefixer())
+    .use(rupture())
     .set('filename', compileStep.inputPath)
     // Include needed to allow relative @imports in stylus files
     .include(path.dirname(compileStep._fullInputPath))

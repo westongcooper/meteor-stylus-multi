@@ -17,6 +17,10 @@ Nib is a popular stylus package that adds many helpful, basic, utility mixins. I
 @import 'nib'
 ```
 
+### [Autoprefixer](https://github.com/jenius/autoprefixer-stylus) 0.1.0
+
+An autoprefixer plugin for stylus.
+
 ### [Jeet](http://jeet.gs/) 5.2.10
 
 An advanced-- yet intuitive-- grid system. Very capable, and useful for laying out a page without cluttering up HTML with grid classes.
