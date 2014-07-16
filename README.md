@@ -5,11 +5,11 @@ This package provides many nice, useful Stylus packages. This approach might be 
 
 ## Included packages
 
-### [Stylus](http://learnboost.github.io/stylus/) 0.42.3
+### [Stylus](http://learnboost.github.io/stylus/) 0.46.3
 
 Expressive, dynamic, robust CSS.
 
-### [Nib](http://visionmedia.github.io/nib/) 1.0.2
+### [Nib](http://visionmedia.github.io/nib/) 1.0.3
 
 Nib is a popular stylus package that adds many helpful, basic, utility mixins. It also auto-prefixes your styles if you include this line in your styles:
 
@@ -17,15 +17,19 @@ Nib is a popular stylus package that adds many helpful, basic, utility mixins. I
 @import 'nib'
 ```
 
-### [Jeet](http://jeet.gs/) 5.1.3
+### [Autoprefixer](https://github.com/jenius/autoprefixer-stylus) 0.1.0
+
+An autoprefixer plugin for stylus.
+
+### [Jeet](http://jeet.gs/) 5.2.10
 
 An advanced-- yet intuitive-- grid system. Very capable, and useful for laying out a page without cluttering up HTML with grid classes.
 
-### [Rupture](https://github.com/jenius/rupture) 0.0.2
+### [Rupture](https://github.com/jenius/rupture) 0.1.0
 
 Simple media queries for stylus.
 
-### [Axis](http://roots.cx/axis/) 0.1.8
+### [Axis](http://roots.cx/axis/) 0.2.0
 
 A higher-level stylus mixin library with lots of extra functionality. Be sure not to miss the normalize() mixin.
 

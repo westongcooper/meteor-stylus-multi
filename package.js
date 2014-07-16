@@ -9,11 +9,12 @@ Package._transitional_registerBuildPlugin({
     'plugin/compile-stylus.js'
   ],
   npmDependencies: {
-    stylus: "0.42.3",
-    nib: "1.0.2",
-    jeet: "5.1.3",
-    rupture: "0.0.2",
-    "axis-css": "0.1.8"
+    stylus: "0.46.3",
+    nib: "1.0.3",
+    "autoprefixer-stylus": "0.1.0",
+    jeet: "5.2.10",
+    rupture: "0.1.0",
+    axis: "0.2.0"
   }
 });
 
