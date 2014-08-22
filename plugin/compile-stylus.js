@@ -5,6 +5,7 @@ var nib = Npm.require('nib');
 var jeet = Npm.require('jeet');
 var rupture = Npm.require('rupture');
 var axis = Npm.require('axis');
+var platonic = Npm.require('stylus-platonic');
 var path = Npm.require('path');
 var autoprefixer = Npm.require('autoprefixer-stylus');
 
@@ -23,8 +24,8 @@ Plugin.registerSourceHandler("styl", function(compileStep) {
     .use(nib())
     .use(jeet())
     .use(axis())
-    .use(autoprefixer())
     .use(rupture())
+    .use(platonic())
     .set('filename', compileStep.inputPath)
     // Include needed to allow relative @imports in stylus files
     .include(path.dirname(compileStep._fullInputPath))

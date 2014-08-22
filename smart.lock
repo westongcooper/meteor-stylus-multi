@@ -2,12 +2,12 @@
   "meteor": {},
   "dependencies": {
     "basePackages": {
-      "stylus-latest-with-jeet": {
+      "stylus-multi": {
         "path": "."
       }
     },
     "packages": {
-      "stylus-latest-with-jeet": {
+      "stylus-multi": {
         "path": "."
       }
     }
