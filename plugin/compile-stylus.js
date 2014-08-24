@@ -7,7 +7,6 @@ var rupture = Npm.require('rupture');
 var axis = Npm.require('axis');
 var platonic = Npm.require('stylus-platonic');
 var path = Npm.require('path');
-var autoprefixer = Npm.require('autoprefixer-stylus');
 
 Plugin.registerSourceHandler("styl", function(compileStep) {
   // XXX annoying that this is replicated in .css, .less, and .styl
