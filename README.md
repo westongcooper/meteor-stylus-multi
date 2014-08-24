@@ -3,6 +3,14 @@ stylus-multi
 
 This package provides many nice, useful Stylus packages. This approach might be more palatable to some than cluttering up their templates with CSS framework-proprietary classes such as those that come with Zurb Foundation and Twitter Bootstrap, or installing Sass. With these Stylus classes, one can avoid that by using Stylus mixins.
 
+## Versions
+
+### Meteor 0.8.x
+The version from Meteorite, 0.0.4, should work up to and including Meteor 0.8.3, but if it does not, try rolling back to 0.0.2.
+
+### Meteor 0.9.x
+This package, stylus-multi 0.0.5, now has preliminary Meteor 0.9 support. stylus-multi 0.0.5 will not be published on Atmosphere.
+
 ## Included packages
 
 ### [Stylus](http://learnboost.github.io/stylus/) 0.48.1
@@ -22,6 +30,12 @@ Nib is a popular stylus package that adds many helpful, basic, utility mixins. I
 ### [Jeet](http://jeet.gs/) 5.3.0
 
 An advanced-- yet intuitive-- grid system. Very capable, and useful for laying out a page without cluttering up HTML with grid classes.
+
+It's important to remember to include it in your styles, like so:
+
+```
+@import 'jeet'
+```
 
 ### [Rupture](https://github.com/jenius/rupture) 0.3.1
 
