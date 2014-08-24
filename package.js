@@ -1,12 +1,12 @@
 Package.describe({
   summary: 'Stylus, packaged with Nib, Jeet, Rupture, and Axis',
   version: '0.0.5',
-  name: 'stylus-multi',
+  name: 'cryptoquick:stylus-multi',
   git: 'https://github.com/furrio/meteor-stylus-multi.git'
 });
 
 Package._transitional_registerBuildPlugin({
-  name: 'stylus-multi',
+  name: 'cryptoquick:stylus-multi',
   sources: [
     'plugin/compile-stylus.js'
   ],
@@ -21,6 +21,6 @@ Package._transitional_registerBuildPlugin({
 });
 
 Package.onTest(function(api) {
-  api.use(['stylus-multi', 'tinytest', 'test-helpers', 'templating']);
+  api.use(['cryptoquick:stylus-multi', 'tinytest', 'test-helpers', 'templating']);
   api.add_files(['stylus-multi_tests.styl', 'stylus-multi_tests.html', 'stylus-multi_tests.js'], 'client');
 });
