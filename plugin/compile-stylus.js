@@ -7,18 +7,8 @@ var rupture = Npm.require('rupture');
 var axis = Npm.require('axis');
 var platonic = Npm.require('stylus-platonic');
 var path = Npm.require('path');
-var autoprefixer = Npm.require('autoprefixer-stylus');
 
 Plugin.registerSourceHandler("styl", function(compileStep) {
-  // XXX annoying that this is replicated in .css, .less, and .styl
-  if (!compileStep.archMatches('browser')) {
-    // XXX in the future, might be better to emit some kind of a
-    // warning if a stylesheet is included on the server, rather than
-    // silently ignoring it. but that would mean you can't stick .css
-    // at the top level of your app, which is kind of silly.
-    return;
-  }
-
   var f = new Future;
   stylus(compileStep.read().toString('utf8'))
     .use(nib())
