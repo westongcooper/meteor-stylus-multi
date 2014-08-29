@@ -15,9 +15,7 @@ This package, stylus-multi 0.0.5, now has preliminary Meteor 0.9 support. stylus
 
 ### [Stylus](http://learnboost.github.io/stylus/) 0.48.1
 
-Expressive, dynamic, robust CSS. Now supports source maps.
-
-`I'm unsure how to get Meteor to work with these, however. It's necessary to be able to turn them off in production. For now, they remain unset. - Hunter`
+Expressive, dynamic, robust CSS.
 
 ### [Nib](http://visionmedia.github.io/nib/) 1.0.3
 

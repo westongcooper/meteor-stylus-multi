@@ -1,6 +1,5 @@
-var fs = Npm.require('fs');
-var stylus = Npm.require('stylus');
 var Future = Npm.require('fibers/future');
+var stylus = Npm.require('stylus');
 var nib = Npm.require('nib');
 var jeet = Npm.require('jeet');
 var rupture = Npm.require('rupture');
@@ -8,7 +7,7 @@ var axis = Npm.require('axis');
 var platonic = Npm.require('stylus-platonic');
 var path = Npm.require('path');
 
-Plugin.registerSourceHandler("styl", function(compileStep) {
+Plugin.registerSourceHandler("styl", {archMatching: 'web'}, function(compileStep) {
   var f = new Future;
   stylus(compileStep.read().toString('utf8'))
     .use(nib())
