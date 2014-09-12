@@ -1,7 +1,7 @@
 function stylusTest (test_name, template_name, class_name, style_property, style_value) {
   Tinytest.add(test_name, function(test) {
     var div = document.createElement('div');
-    Blaze.render(Template[template_name]).attach(div);
+    UI.render(Template[template_name], div);
     div.style.display = 'block';
     document.body.appendChild(div);
 
