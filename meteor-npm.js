@@ -14,7 +14,7 @@ var desc = content[0];
 var pkg = content[1];
 
 var json = {
-  name: desc.name,
+  name: desc.name.split(':')[1],
   version: desc.version,
   description: desc.summary,
   repository: {
