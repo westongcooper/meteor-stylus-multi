@@ -1,4 +1,4 @@
-stylus-multi [![Build Status](http://img.shields.io/travis/furrio/meteor-stylus-multi.svg?style=flat-square)](https://travis-ci.org/furrio/meteor-stylus-multi) ![](http://img.shields.io/david/furrio/meteor-stylus-multi.svg?style=flat-square)
+stylus-multi [![Build Status](http://img.shields.io/travis/furrio/meteor-stylus-multi.svg?style=flat-square)](https://travis-ci.org/furrio/meteor-stylus-multi) [![Dependencies](http://img.shields.io/david/furrio/meteor-stylus-multi.svg?style=flat-square)](https://david-dm.org/furrio/meteor-stylus-multi)
 ============
 
 This package provides many nice, useful Stylus packages. This approach might be more palatable to some than cluttering up their templates with CSS framework-proprietary classes such as those that come with Zurb Foundation and Twitter Bootstrap, or installing Sass. With these Stylus classes, one can avoid that by using Stylus mixins.
