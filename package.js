@@ -11,11 +11,11 @@ Package._transitional_registerBuildPlugin({
     'plugin/compile-stylus.js'
   ],
   npmDependencies: {
-    stylus: "0.48.1",
-    nib: "1.0.3",
-    jeet: "6.0.0",
+    stylus: "0.49.2",
+    nib: "1.0.4",
+    jeet: "6.1.2",
     rupture: "0.4.0",
-    axis: "0.2.1",
+    axis: "0.3.0",
     "stylus-platonic": "0.1.0"
   }
 });

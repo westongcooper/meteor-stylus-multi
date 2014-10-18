@@ -5,11 +5,11 @@ This package provides many nice, useful Stylus packages. This approach might be 
 
 ## Included packages
 
-### [Stylus](http://learnboost.github.io/stylus/) 0.48.1
+### [Stylus](http://learnboost.github.io/stylus/) 0.49.2
 
 Expressive, dynamic, robust CSS.
 
-### [Nib](http://visionmedia.github.io/nib/) 1.0.3
+### [Nib](http://visionmedia.github.io/nib/) 1.0.4
 
 Nib is a popular stylus package that adds many helpful, basic, utility mixins. It also auto-prefixes your styles if you include this line in your styles:
 
@@ -17,7 +17,7 @@ Nib is a popular stylus package that adds many helpful, basic, utility mixins. I
 @import 'nib'
 ```
 
-### [Jeet](http://jeet.gs/) 6.0.0
+### [Jeet](http://jeet.gs/) 6.1.2
 
 An advanced-- yet intuitive-- grid system. Very capable, and useful for laying out a page without cluttering up HTML with grid classes.
 
@@ -31,7 +31,11 @@ It's important to remember to include it in your styles, like so:
 
 Simple media queries for stylus.
 
-### [Axis](http://roots.cx/axis/) 0.2.1
+```
+@import 'rupture'
+```
+
+### [Axis](http://roots.cx/axis/) 0.3.0
 
 A higher-level stylus mixin library with lots of extra functionality. Be sure not to miss the normalize() mixin.
 
@@ -54,6 +58,12 @@ Feel free to contact the author or submit a PR if these get terribly out-of-date
 ## Testing
 
 Basic tests for each module are provided. If you don't test in Chrome, you're gonna have a bad time.
+
+To test, run:
+
+```
+meteor test-packages ./
+```
 
 ## Credit
 
