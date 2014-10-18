@@ -1,6 +1,4 @@
-@import 'nib'
 @import 'jeet'
-@import 'stylus-platonic'
 
 #stylus-tests
   zoom: 1
@@ -8,25 +6,22 @@
 dashy = dashed
 
 .stylus-dashy-left-border
-  border-left: 1px dashy black
+  border-left 1px dashy black
 
-.stylus-nib-gradient
-  background: linear-gradient(top, white, black)
+.stylus-nib-ellipsis
+  overflow ellipsis
 
-.stylus-nib-autoprefixed-transition
-  transition: all 1s ease
+.stylus-autoprefixed-transition
+  column-count 2
 
 .stylus-jeet-column
   column(1/4, offset: 1/4)
 
 .stylus-rupture-media-query
-  color: red
+  color red
 
   +above(1px)
-    color: blue
+    color blue
 
 .stylus-axis-border
   b()
-
-.stylus-platonic-pentagon
-  pentagon(translate-x: 80px)

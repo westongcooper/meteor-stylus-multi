@@ -1,6 +1,6 @@
 Package.describe({
   summary: 'Stylus, packaged with Nib, Jeet, Rupture, and Axis',
-  version: '0.1.0',
+  version: '0.1.1',
   name: 'cryptoquick:stylus-multi',
   git: 'https://github.com/furrio/meteor-stylus-multi.git'
 });
@@ -11,12 +11,11 @@ Package._transitional_registerBuildPlugin({
     'plugin/compile-stylus.js'
   ],
   npmDependencies: {
-    stylus: "0.49.2",
-    nib: "1.0.4",
-    jeet: "6.1.2",
-    rupture: "0.4.0",
-    axis: "0.3.0",
-    "stylus-platonic": "0.1.0"
+    stylus: '0.49.2',
+    'autoprefixer-stylus': '0.3.0',
+    jeet: '6.1.2',
+    rupture: '0.4.0',
+    axis: '0.3.0'
   }
 });
 

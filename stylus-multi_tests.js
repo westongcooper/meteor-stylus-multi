@@ -24,20 +24,20 @@ stylusTest(
 
 // nib
 stylusTest(
-  'stylus - nib gradient',
-  'stylus_test_nib_gradient',
-  'stylus-nib-gradient',
-  'background',
-  'rgba(0, 0, 0, 0) -webkit-linear-gradient(top, rgb(255, 255, 255), rgb(34, 34, 34)) repeat scroll 0% 0% / auto padding-box border-box'
+  'stylus - nib ellipsis',
+  'stylus_test_nib_ellipsis',
+  'stylus-nib-ellipsis',
+  'white-space',
+  'nowrap'
 );
 
-// nib autoprefixing
+// autoprefixing
 stylusTest(
-  'stylus - nib autoprefixer',
-  'stylus_test_nib_autoprefixing',
-  'stylus-nib-autoprefixed-transition',
-  '-webkit-transition',
-  'all 1s ease 0s'
+  'stylus - autoprefixer',
+  'stylus_test_autoprefixing',
+  'stylus-autoprefixed-transition',
+  '-webkit-column-count',
+  '2'
 );
 
 // jeet
@@ -65,13 +65,4 @@ stylusTest(
   'stylus-axis-border',
   'border',
   '1px solid rgb(51, 51, 51)'
-);
-
-// platonic
-stylusTest(
-  'stylus - platonic pentagon',
-  'stylus_platonic_pentagon',
-  'stylus-platonic-pentagon',
-  '-webkit-transform',
-  'matrix(1, 0, 0, 1, 80, 0)'
 );

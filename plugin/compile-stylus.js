@@ -1,20 +1,18 @@
 var Future = Npm.require('fibers/future');
 var stylus = Npm.require('stylus');
-var nib = Npm.require('nib');
+var autoprefixer = Npm.require('autoprefixer-stylus');
 var jeet = Npm.require('jeet');
 var rupture = Npm.require('rupture');
 var axis = Npm.require('axis');
-var platonic = Npm.require('stylus-platonic');
 var path = Npm.require('path');
 
 Plugin.registerSourceHandler("styl", {archMatching: 'web'}, function(compileStep) {
   var f = new Future;
   stylus(compileStep.read().toString('utf8'))
-    .use(nib())
     .use(jeet())
     .use(axis())
     .use(rupture())
-    .use(platonic())
+    .use(autoprefixer())
     .set('filename', compileStep.inputPath)
     // Include needed to allow relative @imports in stylus files
     .include(path.dirname(compileStep._fullInputPath))

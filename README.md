@@ -7,15 +7,15 @@ This package provides many nice, useful Stylus packages. This approach might be 
 
 ### [Stylus](http://learnboost.github.io/stylus/) 0.49.2
 
-Expressive, dynamic, robust CSS.
+Expressive, dynamic, robust CSS. Curly braces and semicolons: optional.
 
 ### [Nib](http://visionmedia.github.io/nib/) 1.0.4
 
-Nib is a popular stylus package that adds many helpful, basic, utility mixins. It also auto-prefixes your styles if you include this line in your styles:
+Nib is a popular stylus package that adds many helpful, basic, utility mixins.
 
-```
-@import 'nib'
-```
+### [Autoprefixer](https://github.com/jenius/autoprefixer-stylus) 0.3.0
+
+An autoprefixer plugin for stylus.
 
 ### [Jeet](http://jeet.gs/) 6.1.2
 
@@ -31,17 +31,9 @@ It's important to remember to include it in your styles, like so:
 
 Simple media queries for stylus.
 
-```
-@import 'rupture'
-```
-
 ### [Axis](http://roots.cx/axis/) 0.3.0
 
-A higher-level stylus mixin library with lots of extra functionality. Be sure not to miss the normalize() mixin.
-
-### [Platonic](http://davidpaulrosser.github.io/stylus-platonic/) 0.1.0
-
-A CSS3D library. This library hasn't seen much maintenance, but what's been made is still _daaamn_ sweet, nonetheless.
+A higher-level stylus mixin library with lots of extra functionality. Be sure not to miss the normalize() mixin. Axis uses and imports Nib, so Nib has been removed from this package.
 
 ## Compatibility
 
