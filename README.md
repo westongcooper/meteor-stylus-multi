@@ -5,17 +5,17 @@ This package provides many nice, useful Stylus packages. This approach might be 
 
 ## Included packages
 
-### [Stylus](http://learnboost.github.io/stylus/) 0.49.2
+### [Stylus](http://learnboost.github.io/stylus/) 0.49.3
 
 Expressive, dynamic, robust CSS. Curly braces and semicolons: optional.
 
 ### [Nib](http://visionmedia.github.io/nib/) 1.0.4
 
-Nib is a popular stylus package that adds many helpful, basic, utility mixins.
+Nib is a popular Stylus package that adds many helpful, basic, utility mixins.
 
-### [Autoprefixer](https://github.com/jenius/autoprefixer-stylus) 0.3.0
+### [Autoprefixer](https://github.com/jenius/autoprefixer-stylus) 0.5.0
 
-An autoprefixer plugin for stylus.
+An autoprefixer plugin for Stylus. Will also remove unnecessary prefixes if there is widespread browser support.
 
 ### [Jeet](http://jeet.gs/) 6.1.2
 
@@ -27,13 +27,13 @@ It's important to remember to include it in your styles, like so:
 @import 'jeet'
 ```
 
-### [Rupture](https://github.com/jenius/rupture) 0.4.0
+### [Rupture](https://github.com/jenius/rupture) 0.6.1
 
-Simple media queries for stylus.
+Simple media queries for Stylus.
 
 ### [Axis](http://roots.cx/axis/) 0.3.0
 
-A higher-level stylus mixin library with lots of extra functionality. Be sure not to miss the normalize() mixin. Axis uses and imports Nib, so Nib has been removed from this package.
+A higher-level Stylus mixin library with lots of extra functionality. Be sure not to miss the normalize() mixin. Axis uses and imports Nib, so Nib has been removed from this package.
 
 ## Compatibility
 
@@ -41,7 +41,7 @@ The package is fully compatible with Meteor 0.9.
 
 All of these packages should be compatible with each other. That said, there are not many tests at the moment. Feel free to PR any tests you think might be handy.
 
-NOTE: This may not be compatible with other Meteor stylus libraries. Please uninstall anything related to stylus before running this, otherwise your application may fail with a fibers-related error.
+NOTE: This may not be compatible with other Meteor Stylus libraries. Please uninstall anything related to Stylus before running this, otherwise your application may fail with a fibers-related error.
 
 ## Updates
 
