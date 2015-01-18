@@ -66,3 +66,12 @@ stylusTest(
   'border',
   '1px solid rgb(51, 51, 51)'
 );
+
+// import-only
+stylusTest(
+  'stylus - import-only shorthand',
+  'stylus_test_import_only',
+  'stylus-test-import-only',
+  'color',
+  'rgb(0, 116, 217)'
+);

@@ -8,7 +8,13 @@ var path = Npm.require('path');
 
 Plugin.registerSourceHandler("styl", {archMatching: 'web'}, function(compileStep) {
   var f = new Future;
-  stylus(compileStep.read().toString('utf8'))
+
+  var file = compileStep.read().toString('utf8');
+
+  // Skips files with //@import-only as their first line.
+  if (file.indexOf('//@import-only') === 0) return;
+
+  stylus(file)
     .use(jeet())
     .use(axis())
     .use(rupture())
