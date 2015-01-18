@@ -29,6 +29,7 @@ Package.onTest(function(api) {
   api.add_files([
     'stylus-multi_tests.styl',
     'stylus-multi_test_import_only.styl',
+    'stylus-multi_test_import.styl',
     'stylus-multi_tests.html',
     'stylus-multi_tests.js'
   ], 'client');

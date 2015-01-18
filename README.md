@@ -35,6 +35,10 @@ Simple media queries for Stylus.
 
 A higher-level Stylus mixin library with lots of extra functionality. Be sure not to miss the normalize() mixin. Axis uses and imports Nib, so Nib has been removed from this package.
 
+## Features
+
+An additional feature is support for the `//@import-only` shorthand. This will be checked for at the very top of your stylus files. If it's found as the first thing, the file will be skipped, so it can only be imported.
+
 ## Compatibility
 
 The package is fully compatible with Meteor 0.9.
