@@ -5,7 +5,7 @@ This package provides many nice, useful Stylus packages. This approach might be 
 
 ## Included packages
 
-### [Stylus](http://learnboost.github.io/stylus/) 0.49.3
+### [Stylus](http://learnboost.github.io/stylus/) 0.50.0
 
 Expressive, dynamic, robust CSS. Curly braces and semicolons: optional.
 
@@ -31,7 +31,7 @@ It's important to remember to include it in your styles, like so:
 
 Simple media queries for Stylus.
 
-### [Axis](http://roots.cx/axis/) 0.3.0
+### [Axis](http://axis.netlify.com/) 0.3.0
 
 A higher-level Stylus mixin library with lots of extra functionality. Be sure not to miss the normalize() mixin. Axis uses and imports Nib, so Nib has been removed from this package.
 

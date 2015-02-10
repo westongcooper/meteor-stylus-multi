@@ -1,13 +1,13 @@
 {
   "name": "stylus-multi",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Stylus, packaged with Nib, Jeet, Rupture, and Axis",
   "repository": {
     "type": "git",
     "url": "https://github.com/furrio/meteor-stylus-multi.git"
   },
   "dependencies": {
-    "stylus": "0.49.3",
+    "stylus": "0.50.0",
     "autoprefixer-stylus": "0.5.0",
     "jeet": "6.1.2",
     "rupture": "0.6.1",
