@@ -17,14 +17,14 @@ Nib is a popular Stylus package that adds many helpful, basic, utility mixins.
 
 An autoprefixer plugin for Stylus. Will also remove unnecessary prefixes if there is widespread browser support.
 
-### [Jeet](http://jeet.gs/) 6.1.2
+### [Lost](https://github.com/corysimmons/lost) 1.1.1
 
-An advanced-- yet intuitive-- grid system. Very capable, and useful for laying out a page without cluttering up HTML with grid classes.
+SCSS or Stylus fractional grid system built with calc(), based on Bootstrap, with a modified Jeet fallback.
 
 It's important to remember to include it in your styles, like so:
 
 ```
-@import 'jeet'
+@import 'lost'
 ```
 
 ### [Rupture](https://github.com/jenius/rupture) 0.6.1
@@ -71,4 +71,4 @@ This project was forked from [Dave Gonzalez's fork](https://github.com/davegonza
 
 Developers are an opinionated bunch, but seriously, it's really nice to get framework-proprietary classes out of your templates.
 
-Also, Stylus is best CSS preprocessor. Twilight Sparkle is best pony.
+Also, Stylus is best CSS preprocessor.
