@@ -1,12 +1,12 @@
 Package.describe({
   summary: 'Stylus, packaged with Nib, Jeet, Rupture, and Axis',
   version: '1.2.1',
-  name: 'cryptoquick:stylus-multi',
-  git: 'https://github.com/furrio/meteor-stylus-multi.git'
+  name: 'stolinski:stylus-multi',
+  git: 'https://github.com/stolinski/meteor-stylus-multi.git'
 });
 
 Package._transitional_registerBuildPlugin({
-  name: 'cryptoquick:stylus-multi',
+  name: 'stolinski:stylus-multi',
   sources: [
     'plugin/compile-stylus.js'
   ],
@@ -15,7 +15,8 @@ Package._transitional_registerBuildPlugin({
     'autoprefixer-stylus': '0.5.0',
     jeet: '6.1.2',
     rupture: '0.6.1',
-    axis: '0.3.0'
+    axis: '0.3.0',
+    lost-grid: '1.1.1'
   }
 });
 

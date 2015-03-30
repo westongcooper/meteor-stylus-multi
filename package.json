@@ -11,7 +11,8 @@
     "autoprefixer-stylus": "0.5.0",
     "jeet": "6.1.2",
     "rupture": "0.6.1",
-    "axis": "0.3.0"
+    "axis": "0.3.0",
+    "lost-grid": "1.1.1"
   },
   "private": true
 }

@@ -5,6 +5,7 @@ var jeet = Npm.require('jeet');
 var rupture = Npm.require('rupture');
 var axis = Npm.require('axis');
 var path = Npm.require('path');
+var path = Npm.require('lost-grid');
 
 Plugin.registerSourceHandler("styl", {archMatching: 'web'}, function(compileStep) {
   var f = new Future;
@@ -18,6 +19,7 @@ Plugin.registerSourceHandler("styl", {archMatching: 'web'}, function(compileStep
     .use(jeet())
     .use(axis())
     .use(rupture())
+    .use(lost-grid())
     .use(autoprefixer())
     .set('filename', compileStep.inputPath)
     // Include needed to allow relative @imports in stylus files
