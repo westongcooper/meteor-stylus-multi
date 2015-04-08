@@ -1,4 +1,4 @@
-stylus-multi [![Build Status](http://img.shields.io/travis/furrio/meteor-stylus-multi.svg?style=flat-square)](https://travis-ci.org/furrio/meteor-stylus-multi) [![Dependencies](http://img.shields.io/david/furrio/meteor-stylus-multi.svg?style=flat-square)](https://david-dm.org/furrio/meteor-stylus-multi)
+stylus-multi
 ============
 
 This package provides many nice, useful Stylus packages. This approach might be more palatable to some than cluttering up their templates with CSS framework-proprietary classes such as those that come with Zurb Foundation and Twitter Bootstrap, or installing Sass. With these Stylus classes, one can avoid that by using Stylus mixins.
@@ -17,7 +17,7 @@ Nib is a popular Stylus package that adds many helpful, basic, utility mixins.
 
 An autoprefixer plugin for Stylus. Will also remove unnecessary prefixes if there is widespread browser support.
 
-### [Lost](https://github.com/corysimmons/lost) 1.1.1
+### [Lost](https://github.com/corysimmons/lost) 5.1.2
 
 SCSS or Stylus fractional grid system built with calc(), based on Bootstrap, with a modified Jeet fallback.
 
