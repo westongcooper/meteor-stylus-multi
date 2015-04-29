@@ -1,6 +1,6 @@
 {
   "name": "stylus-multi + PostCSS",
-  "version": "1.3.3",
+  "version": "1.3.4",
   "description": "Stylus, w/ Nib, Rupture, Axis and PostCSS with Lost",
   "repository": {
     "type": "git",

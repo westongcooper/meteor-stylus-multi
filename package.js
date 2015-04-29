@@ -1,6 +1,6 @@
 Package.describe({
   summary: 'Stylus, w/ Nib, Rupture, Axis and PostCSS with Lost',
-  version: '1.3.3',
+  version: '1.3.4',
   name: 'stolinski:stylus-multi',
   git: 'https://github.com/stolinski/meteor-stylus-multi.git'
 });

@@ -35,7 +35,11 @@ PostCSS is a tool for transforming CSS with JS plugins. These plugins can suppor
 
 ### [Lost](https://github.com/corysimmons/lost) 6.0.2
 
-Lost Grid is a powerful grid system built in PostCSS that works with any preprocessor and even vanilla CSS. You can think of it like the Autoprefixer of grid systems.
+Lost grid is a powerful grid system built in PostCSS that works with any preprocessor and even vanilla CSS. You can think of it like the Autoprefixer of grid systems.
+
+#### Note:
+
+Lost has changed from a Stylus library to a PostCSS system. If you have upgraded from the previous version, your code will break. Please see https://github.com/corysimmons/lost for the latest syntax.
 
 ## Features
 
