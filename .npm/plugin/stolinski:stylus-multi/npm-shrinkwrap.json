@@ -101,11 +101,32 @@
         }
       }
     },
-    "jeet": {
-      "version": "6.1.2"
+    "lost": {
+      "version": "6.0.2",
+      "dependencies": {
+        "object-assign": {
+          "version": "2.0.0"
+        }
+      }
     },
-    "lost-grid": {
-      "version": "5.1.2"
+    "postcss": {
+      "version": "4.1.7",
+      "dependencies": {
+        "es6-promise": {
+          "version": "2.1.1"
+        },
+        "source-map": {
+          "version": "0.4.2",
+          "dependencies": {
+            "amdefine": {
+              "version": "0.1.0"
+            }
+          }
+        },
+        "js-base64": {
+          "version": "2.1.8"
+        }
+      }
     },
     "rupture": {
       "version": "0.6.1"

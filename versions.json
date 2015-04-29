@@ -11,8 +11,6 @@
   ],
   "pluginDependencies": [
     [
-      "cryptoquick:stylus-multi",
-      {}
     ]
   ],
   "toolVersion": "meteor-tool@1.0.34",

@@ -1,11 +1,11 @@
 var Future = Npm.require('fibers/future');
 var stylus = Npm.require('stylus');
 var autoprefixer = Npm.require('autoprefixer-stylus');
-var jeet = Npm.require('jeet');
 var rupture = Npm.require('rupture');
 var axis = Npm.require('axis');
 var path = Npm.require('path');
-var lost = Npm.require('lost-grid');
+var postcss = Npm.require('postcss');
+var lostg = Npm.require('lost');
 
 Plugin.registerSourceHandler("styl", {archMatching: 'web'}, function(compileStep) {
     var f = new Future;
@@ -16,15 +16,14 @@ Plugin.registerSourceHandler("styl", {archMatching: 'web'}, function(compileStep
     if(file.indexOf('//@import-only') === 0) return;
 
     stylus(file)
-        .use(jeet())
         .use(axis())
         .use(rupture())
-        .use(lost())
         .use(autoprefixer())
         .set('filename', compileStep.inputPath)
         // Include needed to allow relative @imports in stylus files
         .include(path.dirname(compileStep._fullInputPath))
         .render(f.resolver());
+
 
     try {
         var css = f.wait();
@@ -34,11 +33,16 @@ Plugin.registerSourceHandler("styl", {archMatching: 'web'}, function(compileStep
             });
             return;
         }
+
+    css = postcss([lostg]).process(css).css;
+
+
     compileStep.addStylesheet({
         path: compileStep.inputPath + ".css",
         data: css
     });
 });
+
 
 // Register import.styl files with the dependency watcher, without actually
 // processing them. There is a similar rule in the less package.

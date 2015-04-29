@@ -1,6 +1,6 @@
 Package.describe({
-  summary: 'Stylus, packaged with Nib, Lost, Rupture, and Axis',
-  version: '1.2.9',
+  summary: 'Stylus, w/ Nib, Rupture, Axis and PostCSS with Lost',
+  version: '1.3.3',
   name: 'stolinski:stylus-multi',
   git: 'https://github.com/stolinski/meteor-stylus-multi.git'
 });
@@ -13,16 +13,16 @@ Package._transitional_registerBuildPlugin({
   npmDependencies: {
     stylus: '0.50.0',
     'autoprefixer-stylus': '0.5.0',
-    jeet: '6.1.2',
     rupture: '0.6.1',
     axis: '0.3.0',
-    'lost-grid': '5.1.2'
+    "lost": "6.0.2",
+    "postcss": "4.1.7"
   }
 });
 
 Package.onTest(function(api) {
   api.use([
-    'cryptoquick:stylus-multi',
+    'stolinski:stylus-multi',
     'tinytest',
     'test-helpers',
     'templating'

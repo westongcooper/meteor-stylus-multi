@@ -1,9 +1,11 @@
-stylus-multi
-============
+stylus-multi + postcss
+======================
 
 This package provides many nice, useful Stylus packages. This approach might be more palatable to some than cluttering up their templates with CSS framework-proprietary classes such as those that come with Zurb Foundation and Twitter Bootstrap, or installing Sass. With these Stylus classes, one can avoid that by using Stylus mixins.
 
 ## Included packages
+
+## Stylus Packages
 
 ### [Stylus](http://learnboost.github.io/stylus/) 0.50.0
 
@@ -17,16 +19,6 @@ Nib is a popular Stylus package that adds many helpful, basic, utility mixins.
 
 An autoprefixer plugin for Stylus. Will also remove unnecessary prefixes if there is widespread browser support.
 
-### [Lost](https://github.com/corysimmons/lost) 5.1.2
-
-SCSS or Stylus fractional grid system built with calc(), based on Bootstrap, with a modified Jeet fallback.
-
-It's important to remember to include it in your styles, like so:
-
-```
-@import 'lost'
-```
-
 ### [Rupture](https://github.com/jenius/rupture) 0.6.1
 
 Simple media queries for Stylus.
@@ -34,6 +26,16 @@ Simple media queries for Stylus.
 ### [Axis](http://axis.netlify.com/) 0.3.0
 
 A higher-level Stylus mixin library with lots of extra functionality. Be sure not to miss the normalize() mixin. Axis uses and imports Nib, so Nib has been removed from this package.
+
+## PostCSS Packages
+
+### [PostCSS](https://github.com/postcss/postcss) 4.1.7
+
+PostCSS is a tool for transforming CSS with JS plugins. These plugins can support variables and mixins, transpile future CSS syntax, inline images, and more.
+
+### [Lost](https://github.com/corysimmons/lost) 6.0.2
+
+Lost Grid is a powerful grid system built in PostCSS that works with any preprocessor and even vanilla CSS. You can think of it like the Autoprefixer of grid systems.
 
 ## Features
 
@@ -63,12 +65,12 @@ meteor test-packages ./
 
 ## Credit
 
-Thanks to @jenius and @corysimmons for their work on Axis & Rupture and Jeet, respectively.
+Thanks to @jenius and @corysimmons for their work on Axis & Rupture and Jeet, respectively. Thanks to @cryptoquick the author of stylus-multi of which this is a fork of.
 
-This project was forked from [Dave Gonzalez's fork](https://github.com/davegonzalez/stylus-jeet) of [stylus-latest](https://github.com/sbking/meteor-stylus-latest/).
+This project was forked from [Hunter Trujillo's fork](https://github.com/furrio/meteor-stylus-multi) of [Dave Gonzalez's fork](https://github.com/davegonzalez/stylus-jeet) of [stylus-latest](https://github.com/sbking/meteor-stylus-latest/).
 
 ## Opinions
 
-Developers are an opinionated bunch, but seriously, it's really nice to get framework-proprietary classes out of your templates.
+Stylus is best CSS preprocessor.
 
-Also, Stylus is best CSS preprocessor.
+PostCSS is dope.
