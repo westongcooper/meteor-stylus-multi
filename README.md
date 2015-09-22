@@ -1,13 +1,13 @@
 stylus-multi + postcss
 ======================
 
-This package provides many nice, useful Stylus packages. This approach might be more palatable to some than cluttering up their templates with CSS framework-proprietary classes such as those that come with Zurb Foundation and Twitter Bootstrap, or installing Sass. With these Stylus classes, one can avoid that by using Stylus mixins.
+The [Level Up Tutorials](https://www.youtube.com/user/LevelUpTuts) Stylus/PostCSS Stack. Will make your CSS-ing awesome, you will CSS like never before ᕦ(ò_óˇ)ᕤ. Contains the following excellent packages.
 
 ## Included packages
 
 ## Stylus Packages
 
-### [Stylus](http://learnboost.github.io/stylus/) 0.50.0
+### [Stylus](http://learnboost.github.io/stylus/) 0.52.4
 
 Expressive, dynamic, robust CSS. Curly braces and semicolons: optional.
 

@@ -1,6 +1,6 @@
 {
   "name": "stylus-multi",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "Stylus, w/ Nib, Rupture, Axis and PostCSS with Lost",
   "repository": {
     "type": "git",
@@ -13,6 +13,7 @@
     "axis": "0.5.0",
     "lost": "6.6.2",
     "postcss": "5.0.6",
+    "nib": "1.1.0",
     "rucksack-css": "0.8.2"
   },
   "private": true

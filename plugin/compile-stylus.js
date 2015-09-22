@@ -6,6 +6,7 @@ var axis = Npm.require('axis');
 var path = Npm.require('path');
 var postcss = Npm.require('postcss');
 var lostg = Npm.require('lost');
+var nib = Npm.require('nib');
 var rucksack = Npm.require('rucksack-css');
 
 Plugin.registerSourceHandler("styl", {archMatching: 'web'}, function(compileStep) {
@@ -18,6 +19,7 @@ Plugin.registerSourceHandler("styl", {archMatching: 'web'}, function(compileStep
 
     stylus(file)
         .use(axis())
+        .use(nib())
         .use(rupture())
         .use(autoprefixer())
         .set('filename', compileStep.inputPath)
