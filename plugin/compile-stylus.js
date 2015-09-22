@@ -1,6 +1,6 @@
 var Future = Npm.require('fibers/future');
 var stylus = Npm.require('stylus');
-var autoprefixer = Npm.require('autoprefixer-stylus');
+var autoprefixer = Npm.require('autoprefixer');
 var rupture = Npm.require('rupture');
 var axis = Npm.require('axis');
 var path = Npm.require('path');
@@ -21,7 +21,6 @@ Plugin.registerSourceHandler("styl", {archMatching: 'web'}, function(compileStep
         .use(axis())
         .use(nib())
         .use(rupture())
-        .use(autoprefixer())
         .set('filename', compileStep.inputPath)
         // Include needed to allow relative @imports in stylus files
         .include(path.dirname(compileStep._fullInputPath))
@@ -36,8 +35,7 @@ Plugin.registerSourceHandler("styl", {archMatching: 'web'}, function(compileStep
             });
             return;
         }
-
-    css = postcss([lostg, rucksack]).process(css).css;
+    css = postcss([lostg, rucksack, autoprefixer]).process(css).css;
 
 
     compileStep.addStylesheet({

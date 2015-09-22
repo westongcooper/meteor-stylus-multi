@@ -1,6 +1,6 @@
 Package.describe({
   summary: 'Stylus, w/ Nib, Rupture, Axis and PostCSS with Lost & Rucksack',
-  version: '1.4.1',
+  version: '1.4.3',
   name: 'stolinski:stylus-multi',
   git: 'https://github.com/stolinski/meteor-stylus-multi.git'
 });
@@ -18,7 +18,8 @@ Package._transitional_registerBuildPlugin({
     "lost": "6.6.2",
     "nib": "1.1.0",
     "postcss": "5.0.6",
-    "rucksack-css": "0.8.2"
+    "rucksack-css": "0.8.2",
+    "autoprefixer": "6.0.3"
   }
 });
 

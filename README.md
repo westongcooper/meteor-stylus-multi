@@ -11,7 +11,7 @@ The [Level Up Tutorials](https://www.youtube.com/user/LevelUpTuts) Stylus/PostCS
 
 Expressive, dynamic, robust CSS. Curly braces and semicolons: optional.
 
-### [Nib](http://visionmedia.github.io/nib/) 1.0.4
+### [Nib](http://visionmedia.github.io/nib/) 1.1.0
 
 Nib is a popular Stylus package that adds many helpful, basic, utility mixins.
 
@@ -23,17 +23,21 @@ An autoprefixer plugin for Stylus. Will also remove unnecessary prefixes if ther
 
 Simple media queries for Stylus.
 
-### [Axis](http://axis.netlify.com/) 0.3.0
+### [Axis](http://axis.netlify.com/) 0.5.0
 
 A higher-level Stylus mixin library with lots of extra functionality. Be sure not to miss the normalize() mixin. Axis uses and imports Nib, so Nib has been removed from this package.
 
 ## PostCSS Packages
 
-### [PostCSS](https://github.com/postcss/postcss) 4.1.7
+### [PostCSS](https://github.com/postcss/postcss) 5.0.6
 
 PostCSS is a tool for transforming CSS with JS plugins. These plugins can support variables and mixins, transpile future CSS syntax, inline images, and more.
 
-### [Lost](https://github.com/corysimmons/lost) 6.0.2
+### [Lost](https://github.com/corysimmons/lost) 6.6.2
+
+Lost grid is a powerful grid system built in PostCSS that works with any preprocessor and even vanilla CSS. You can think of it like the Autoprefixer of grid systems.
+
+### [Rucksack](https://simplaio.github.io/rucksack/) 0.8.2
 
 Lost grid is a powerful grid system built in PostCSS that works with any preprocessor and even vanilla CSS. You can think of it like the Autoprefixer of grid systems.
 

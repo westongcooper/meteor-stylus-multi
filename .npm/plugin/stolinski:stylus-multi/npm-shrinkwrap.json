@@ -1,5 +1,19 @@
 {
   "dependencies": {
+    "autoprefixer": {
+      "version": "6.0.3",
+      "dependencies": {
+        "num2fraction": {
+          "version": "1.2.2"
+        },
+        "browserslist": {
+          "version": "1.0.0"
+        },
+        "caniuse-db": {
+          "version": "1.0.30000318"
+        }
+      }
+    },
     "autoprefixer-stylus": {
       "version": "0.5.0",
       "dependencies": {
