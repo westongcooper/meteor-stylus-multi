@@ -6,6 +6,7 @@ var axis = Npm.require('axis');
 var path = Npm.require('path');
 var postcss = Npm.require('postcss');
 var lostg = Npm.require('lost');
+var rucksack = Npm.require('rucksack-css');
 
 Plugin.registerSourceHandler("styl", {archMatching: 'web'}, function(compileStep) {
     var f = new Future;
@@ -34,7 +35,7 @@ Plugin.registerSourceHandler("styl", {archMatching: 'web'}, function(compileStep
             return;
         }
 
-    css = postcss([lostg]).process(css).css;
+    css = postcss([lostg, rucksack]).process(css).css;
 
 
     compileStep.addStylesheet({

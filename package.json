@@ -1,18 +1,19 @@
 {
-  "name": "stylus-multi + PostCSS",
-  "version": "1.3.4",
+  "name": "stylus-multi",
+  "version": "1.4.0",
   "description": "Stylus, w/ Nib, Rupture, Axis and PostCSS with Lost",
   "repository": {
     "type": "git",
-    "url": "https://github.com/stolinski/meteor-stylus-multi"
+    "url": "https://github.com/stolinski/meteor-stylus-multi.git"
   },
   "dependencies": {
-    "stylus": "0.50.0",
+    "stylus": "0.52.4",
     "autoprefixer-stylus": "0.5.0",
     "rupture": "0.6.1",
-    "axis": "0.3.0",
-    "lost": "6.0.2",
-    "postcss": "4.1.7"
+    "axis": "0.5.0",
+    "lost": "6.6.2",
+    "postcss": "5.0.6",
+    "rucksack-css": "0.8.2"
   },
   "private": true
 }
