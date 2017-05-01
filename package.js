@@ -1,25 +1,24 @@
 Package.describe({
-  summary: 'Stylus, w/ Nib, Rupture, Axis and PostCSS with Lost & Rucksack',
-  version: '1.4.3',
-  name: 'stolinski:stylus-multi',
+  summary: 'Stylus, w/ Rupture, Axis and PostCSS with Lost & Rucksack',
+  version: '1.5.1',
+  name: 'westoncooper:stylus-multi',
   git: 'https://github.com/stolinski/meteor-stylus-multi.git'
 });
 
 Package._transitional_registerBuildPlugin({
-  name: 'stolinski:stylus-multi',
+  name: 'westoncooper:stylus-multi',
   sources: [
     'plugin/compile-stylus.js'
   ],
   npmDependencies: {
-    "stylus": "0.52.4",
-    "autoprefixer-stylus": "0.5.0",
-    "rupture": "0.6.1",
-    "axis": "0.5.0",
-    "lost": "6.6.2",
-    "nib": "1.1.0",
-    "postcss": "5.0.6",
-    "rucksack-css": "0.8.2",
-    "autoprefixer": "6.0.3"
+      "stylus": "0.54.5",
+      "autoprefixer-stylus": "0.13.0",
+      "rupture": "0.6.1",
+      "axis": "1.0.0",
+      "lost": "8.0.0",
+      "postcss": "5.2.17",
+      "rucksack-css": "0.9.1",
+      "autoprefixer": "6.7.7"
   }
 });
 

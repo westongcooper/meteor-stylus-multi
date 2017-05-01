@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "axis": {
+      "version": "1.0.0",
+      "resolved": "https://registry.npmjs.org/axis/-/axis-1.0.0.tgz",
+      "from": "axis@1.0.0"
+    },
+    "rupture": {
+      "version": "0.6.1",
+      "resolved": "https://registry.npmjs.org/rupture/-/rupture-0.6.1.tgz",
+      "from": "rupture@0.6.1"
+    }
+  }
+}
