@@ -24,7 +24,7 @@ Package._transitional_registerBuildPlugin({
 
 Package.onTest(function(api) {
   api.use([
-    'stolinski:stylus-multi',
+    'westoncooper:stylus-multi',
     'tinytest',
     'test-helpers',
     'templating'
