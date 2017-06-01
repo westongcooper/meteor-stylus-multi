@@ -19,8 +19,8 @@ Plugin.registerSourceHandler("styl", {archMatching: 'web'}, function(compileStep
 
     stylus(file)
         .use(axis())
-        .use(nib())
         .use(rupture())
+        .use(nib())
         .set('filename', compileStep.inputPath)
         // Include needed to allow relative @imports in stylus files
         .include(path.dirname(compileStep._fullInputPath))
