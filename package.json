@@ -7,15 +7,16 @@
     "url": "https://github.com/stolinski/meteor-stylus-multi.git"
   },
   "dependencies": {
-    "stylus": "0.54.5",
+    "autoprefixer": "6.7.7",
     "autoprefixer-stylus": "0.13.0",
-    "rupture": "0.6.1",
     "axis": "1.0.0",
+    "jquery-validation": "^1.16.0",
     "lost": "8.0.0",
     "nib": "latest",
     "postcss": "5.2.17",
     "rucksack-css": "0.9.1",
-    "autoprefixer": "6.7.7"
+    "rupture": "0.6.1",
+    "stylus": "0.54.5"
   },
   "private": true
 }
