@@ -12,11 +12,11 @@
     "axis": "1.0.0",
     "jquery-validation": "^1.16.0",
     "lost": "8.0.0",
-    "nib": "latest",
     "postcss": "5.2.17",
     "rucksack-css": "0.9.1",
     "rupture": "0.6.1",
-    "stylus": "0.54.5"
+    "stylus": "0.54.5",
+    "bootstrap-styl": "5.0.8"
   },
   "private": true
 }

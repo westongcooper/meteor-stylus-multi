@@ -16,6 +16,7 @@ Package._transitional_registerBuildPlugin({
       "rupture": "0.6.1",
       "axis": "1.0.0",
       "lost": "8.0.0",
+      "bootstrap-styl": "5.0.8",
       "postcss": "5.2.17",
       "rucksack-css": "0.9.1",
       "autoprefixer": "6.7.7"

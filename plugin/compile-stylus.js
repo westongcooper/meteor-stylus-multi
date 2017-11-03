@@ -6,8 +6,8 @@ var axis = Npm.require('axis');
 var path = Npm.require('path');
 var postcss = Npm.require('postcss');
 var lostg = Npm.require('lost');
-var nib = Npm.require('nib');
 var rucksack = Npm.require('rucksack-css');
+var bootstrap = Npm.require('bootstrap-styl');
 
 Plugin.registerSourceHandler("styl", {archMatching: 'web'}, function(compileStep) {
     var f = new Future;
@@ -20,7 +20,7 @@ Plugin.registerSourceHandler("styl", {archMatching: 'web'}, function(compileStep
     stylus(file)
         .use(axis())
         .use(rupture())
-        .use(nib())
+        .use(bootstrap())
         .set('filename', compileStep.inputPath)
         // Include needed to allow relative @imports in stylus files
         .include(path.dirname(compileStep._fullInputPath))
